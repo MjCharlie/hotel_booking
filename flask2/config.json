@@ -1,0 +1,11 @@
+{
+    "params":
+    {
+        "local_server": "True" ,
+        "local_uri": "sqlite:///karu.db",
+        "prod_uri": "mysql://root:@localhost/kart_user",
+        "UPLOAD_LOCATION":  "C:\\Users\\KARTA\\PycharmProjects\\flask2\\static" ,
+        "gmail_user":"noreplyminiproject9696@gmail.com",
+        "gmail_passw":"password"
+    }
+}

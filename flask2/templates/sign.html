@@ -1,0 +1,27 @@
+{% extends 'index.html' %}
+{% block css %}
+    <style>
+        div.done
+    {
+        display: flex;
+        place-content: center;
+        place-items: center;
+        position: relative;
+        top: 3em;
+        left: 0em;
+        width: 100%;
+        background-color: radial-gradient(35px,black , white);
+        padding: 45px;
+    }
+    </style>
+{% endblock css %}
+{% block body %}
+<div class="done">
+<form method="post" action="/sign" > <br>
+    <label for="email" class=""> ENTER YOUR EMAIL</label><br> 
+   <input type="text" name="email" id="email" style="width: 500px;"> <br> <br> <br>
+   <label for="pas" class="">ENTER YOUR PASSWORD</label><br>
+   <input type="password" name="passw" id="pas" style="width: 500px;"> <br> <br> <br> 
+   <input type="submit" class="btn-primary" >
+</div>
+{% endblock body %}
